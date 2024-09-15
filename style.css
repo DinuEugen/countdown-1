@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./fundal.jpg);
+  background-size: cover;
+  height: 650px;
+  background-position: center center;
+}
+h1 {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.countdown-container {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  display: inline-block;
+  font-size: 40px;
+  padding: 15px 15px;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+.big-text {
+  font-size: 50px;
+  margin: 40px;
+  padding-left: 20px;
+}
